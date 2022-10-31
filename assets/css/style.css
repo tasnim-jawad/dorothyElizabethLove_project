@@ -1,0 +1,300 @@
+#banner{
+    background-image: url(../img/bnr-img.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#banner .banner_content{
+    justify-content: center;
+}
+#banner .banner_content .head_line{
+    display: flex;
+    flex-wrap: wrap;
+}
+#banner .banner_content .head_line img{
+    width: 100%;
+}
+#banner .banner_content .head_line p{
+    font-size: 27px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+    padding: 30px 0px;
+
+}
+#banner .banner_content .head_line .romantic{
+    font-size: 35px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Allura-regular';
+}
+#nav_bar{
+    padding: 25px 0px;
+}
+/* #nav_bar .logo{} */
+#nav_bar .logo img{
+    width: 100%;
+    height: 100%;
+}
+#nav_bar .nav_option{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+
+}
+#nav_bar .nav_link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+}
+#nav_bar .nav_link li{
+    font-size: 18px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #800020;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+}
+#Author{
+    background-image: url(../img/author-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right top;
+    background-color: #F8F7FA;
+    padding: 90px 0px;
+}
+/* #Author .left{} */
+#Author .left img{
+    box-shadow: 12px 14px 14px -10px black;
+}
+#Author .right{
+    padding: 60px 100px;
+}
+#Author .right h1{
+    font-size: 116px;
+    line-height: 78px;
+    color: #800020;
+    font-weight: 400;
+    font-family: 'Allura-regular';
+    padding-bottom: 40px;
+}
+#Author .right p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #797979;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+    padding-bottom: 40px;
+}
+#Author .right a{
+    font-size: 16px;
+    line-height: 30px;
+    color: #800020;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+    padding: 10px 50px;
+    border: 2px solid #800020;
+    border-radius: 25px;
+
+}
+
+.common_heading{
+    padding: 100px 0px;
+    text-align: center;
+}
+.common_heading h1{
+    font-size: 95px;
+    line-height: 31px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Allura-regular';
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.common_heading h1::after{
+    position: absolute;
+    content: '';
+    background-image: url(../img/heading-bg.png);
+    bottom: -85px;
+    left: 40%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+/* #fiction{} */
+#fiction .gallery{
+    padding: 0px 55px;
+}
+#fiction .fiction_card{
+    padding: 0px 23px 40px 23px;
+}
+#fiction .fiction_card img{
+    border: 5px solid black;
+    width: 100%;
+}
+#fiction .fiction_card ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    
+}
+#fiction .fiction_card ul li {
+    align-self: baseline;
+}
+#fiction .fiction_card ul li p{
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Lato-regular';
+}
+#fiction .fiction_card ul li a{
+    padding-left: 10px;
+    color: #000000;
+    font-size: 17px;
+    line-height: 10px;
+}
+#fiction .amazon{
+    width: 100%;
+    height: 120px;
+    background: rgb(133,4,34);
+    background: linear-gradient(0deg, rgba(133,4,34,1) 0%, rgba(223,76,65,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#fiction .amazon .all{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #ffffff;
+    padding: 0px 75px 0px 45px;
+    border-radius: 50px;
+}
+#fiction .amazon .all p{
+    font-size: 33px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+    padding-right: 10px;
+}
+#fiction .amazon .all .ama_logo{
+    position: relative;
+}
+
+#fiction .amazon .all .ama_logo .registration{
+    position: absolute;
+    font-size: 15px;
+    color: #ffffff;
+}
+#fiction .amazon .all .ama_logo .right_angle{
+    font-size: 27px;
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-35%);
+    color: #ffffff;
+}
+#others_say{
+    margin: 30px 0px;
+}
+#others_say .card_right,
+#others_say .card_left{
+    padding: 60px 30px;
+    border:1px solid #797979;
+    border-radius: 5px;
+}
+#others_say .card_right h1,
+#others_say .card_middle h1,
+#others_say .card_left h1{
+    font-size: 160px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+}
+#others_say .card_right p,
+#others_say .card_middle p,
+#others_say .card_left p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+    text-align: center;
+}
+#others_say .card_right h3,
+#others_say .card_middle h3,
+#others_say .card_left h3{
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+    text-align: center;
+    padding-top: 30px;
+}
+#others_say .card_middle{
+    padding: 80px 30px;
+    border:1px solid #797979;
+    border-radius: 5px;
+}
+#footer{
+    background-color: black;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+#footer .social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#footer .social li{
+    color: #ffffff;
+    line-height: 43px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    width: 43px;
+    margin: 10px 10px;
+    border-radius: 50px;
+}
+#footer .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px;
+}
+#footer .section li{
+    padding: 0px 20px;
+    font-size: 18px;
+    line-height: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Lato-regular';
+}
+#footer .section li:nth-child(even){
+    padding:0px;
+}
+#footer .copy{
+    font-size: 18px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Lato-regular';
+    text-align:center;
+}

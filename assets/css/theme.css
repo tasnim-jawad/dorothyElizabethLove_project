@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Allura-regular';
+    src: url('../fonts/Allura/Allura-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lato-regular';
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+}
