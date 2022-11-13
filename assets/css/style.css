@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden
+}
+
 #banner{
     background-image: url(../img/bnr-img.jpg);
     background-size: 100% 100%;
@@ -48,6 +52,11 @@
     height: 100%;
 
 }
+.three_line,
+.toggle_checkbox{
+    display: none;
+}
+
 #nav_bar .nav_link{
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +83,7 @@
 /* #Author .left{} */
 #Author .left img{
     box-shadow: 12px 14px 14px -10px black;
+    width: 100%;
 }
 #Author .right{
     padding: 60px 100px;
@@ -126,7 +136,7 @@
     background-image: url(../img/heading-bg.png);
     bottom: -85px;
     left: 40%;
-    width: 100%;
+    width: 35%;
     height: 100%;
     background-repeat: no-repeat;
 

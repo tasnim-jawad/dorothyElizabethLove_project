@@ -1,0 +1,265 @@
+/*xs*/
+@media screen and (max-width: 575.98px){
+    .head_line{
+        justify-content: center;
+        padding: 30px;
+        position: relative;
+        
+        
+    }
+    .head_line img,
+    .head_line p{
+        z-index: 999;
+        text-align: justify;
+    }
+    .bg_blur{
+        position: absolute;
+        top:0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #000;
+        opacity: .8;
+        filter: blur(10px);
+        z-index: 1;
+
+    }
+    .logo{
+        width: 150px;
+    }
+    .nav_small{
+        width: 50%;
+    }
+    #nav_bar .nav_link{
+        top: 74px !important;
+    }
+    #nav_bar .nav_link li{
+        font-size: 15px;
+        word-spacing: .5px;
+        letter-spacing: 0px;
+    }
+    .left{
+        padding: 0px 35px;
+    }
+    #Author .right{
+        padding: 60px 40px ;
+    }
+    #Author .right h1{
+        font-size: 98px;
+        line-height: 78px;
+        text-align: center;
+    }
+    #Author .right p{
+        text-align: justify;
+    }
+    .common_heading{
+        padding: 50px 0px 75px 0px;
+    }
+    .common_heading h1 {
+        line-height: 100px;
+        font-size: 70px;
+    }
+    .common_heading h1::after {
+        display: none;
+    }
+    #fiction .amazon .all p {
+        font-size: 24px;
+    }
+    #others_say .card_right ,
+    #others_say .card_middle ,
+    #others_say .card_left {
+        padding: 60px 30px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+    #fiction .amazon .all .ama_logo img{
+        width: 150px;
+    }
+    #fiction .amazon .all .ama_logo .right_angle {
+        font-size: 23px;
+    }
+    #footer .section li {
+        line-height: 34px;
+    }
+}
+/* sm */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .head_line{
+        /* text-align: center; */
+        justify-content: center;
+        padding: 30px;
+        position: relative;
+        
+        
+    }
+    .head_line img,
+    .head_line p{
+        z-index: 999;
+        text-align: justify;
+    }
+    .bg_blur{
+        position: absolute;
+        top:0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #000;
+        opacity: .8;
+        filter: blur(10px);
+        z-index: 1;
+
+    }
+    #Author .right{
+        padding: 60px 20px ;
+    }
+    #Author .right h1{
+        font-size: 98px;
+        line-height: 78px;
+        text-align: center;
+    }
+    #Author .right p{
+        text-align: justify;
+    }
+    .common_heading{
+        padding: 50px 0px 75px 0px;
+    }
+    .common_heading h1 {
+        line-height: 100px;
+    }
+    .common_heading h1::after {
+        left: 33%;
+        width: 45%;
+        bottom: -210px;
+    }
+    #fiction .fiction_card ul li p {
+        font-size: 16px;
+    }
+    #others_say .card_right ,
+    #others_say .card_middle ,
+    #others_say .card_left {
+        padding: 60px 30px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    #footer .section li {
+        line-height: 34px;
+    }
+}
+/* nav special */
+@media screen and (max-width: 991.98px) {
+    #nav_bar .nav_option{
+        position: relative;
+    }
+    #nav_bar .nav_link{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 94px;
+        padding: 1em;
+        background: white;
+        transform: scale(1,0);
+        transform-origin:top;
+        transition: transform 250ms ease-in-out;
+    }
+    #nav_bar .nav_link a{
+        padding-bottom: 1em;
+        opacity: 0;
+        transition: opacity 150ms ease-in-out ;
+    }
+    .nav_option{
+        justify-content: flex-end;
+    }
+    #nav_bar .toggle_checkbox:checked ~ .nav_link{
+        transform: scale(1,1);
+        /* transition: transform 250ms ease-in-out; */
+    }
+    #nav_bar .toggle_checkbox:checked ~ .nav_link a{
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 150ms;
+    }
+    .three_line{
+        display: block;
+        background: #000;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+    }
+    .three_line::before{
+        content: '';
+        position: absolute;
+        display: block;
+        background: #000;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        bottom:7px;
+    }
+    .three_line::after{
+        content: '';
+        position: absolute;
+        display: block;
+        background: #000;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        top:7px;
+    }
+    
+
+}
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #Author .right{
+        padding: 60px 10px 60px 40px;
+    }
+    #Author .right h1{
+        font-size: 98px;
+        line-height: 78px;
+    }
+    .left{
+        padding-top: 55px;
+    }
+    #fiction .fiction_card {
+        padding: 0px 10px 40px 10px;
+    }
+    #fiction .gallery {
+        padding: 0px 20px;
+        justify-content: center;
+    }
+    #others_say .card_right ,
+    #others_say .card_middle ,
+    #others_say .card_left {
+        padding: 60px 30px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+    .justify_content_center{
+        justify-content: center !important;
+    }
+    #footer .section li {
+        line-height: 34px;
+    }
+}
+/* lg */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #nav_bar .nav_link li{
+        font-size: 15px;
+        word-spacing: .5px;
+        letter-spacing: 0px;
+    }
+    #Author .right{
+        padding: 60px 50px;
+    }
+    #fiction .fiction_card {
+        padding: 0px 5px 40px 5px;
+    }
+    #fiction .gallery {
+        padding: 0px 35px;
+    }
+    
+}
+/* xl */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+/* xxl */
+@media (min-width: 1400px) {}

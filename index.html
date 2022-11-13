@@ -14,6 +14,7 @@
     <link rel='stylesheet' href='assets/css/default.css'>
     <link rel='stylesheet' href='assets/css/theme.css'>
     <link rel='stylesheet' href='assets/css/style.css'>
+    <link rel='stylesheet' href='assets/css/responsive.css'>
     
 
 </head>
@@ -23,8 +24,9 @@
             <div class='container'>
                 <div class='banner_content'>
                     <div class='row'>
-                        <div class='col-4'>
+                        <div class='col-xl-4 col-lg-5 col-md-4' >
                             <div class='head_line'>
+                                <div class="bg_blur"></div>
                                 <img src='assets/img/bnr-logo.png' alt=''>
                                 <p>"Superior novel by Dorothy Love… 
                                     A top-notch page turner that has 
@@ -41,23 +43,26 @@
     <nav>
         <section id="nav_bar">
             <div class='container'>
-                <div class='row'>
-                    <div class='col-3'>
+                <div class='row '>
+                    <div class='col-lg-3 col-md-4 col-sm-5 nav_small'>
                         <div class='logo'>
                             <img src='assets/img/logo.png' alt=''>
                         </div>
                     </div>
-                    <div class='col-9'>
+                    <div class='col-lg-9 col-md-8 col-sm-7 nav_small'>
                         <div class='nav_option'>
+                            <input type='checkbox' class="toggle_checkbox" name='' id='toggle_checkbox'>
                             <ul class="nav_link">
-                                <li>Home</li>
-                                <li>Contemporary Fiction</li>
-                                <li>Non Fiction</li>
-                                <li> Meet the Author </li>
-                                <li>What Others Say</li>
+                                <li><a>Home</a></li>
+                                <li><a>Contemporary Fiction</a></li>
+                                <li><a>Non Fiction</a></li>
+                                <li><a>Meet the Author</a></li>
+                                <li><a>What Others Say</a></li>
                             </ul>
+                            <label for='toggle_checkbox' class="three_line"><span></span></label>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -65,12 +70,12 @@
     <section id="Author">
         <div class='container'>
             <div class='row'>
-                <div class='col-5'>
+                <div class='col-md-5 px-4 px-md-0'>
                     <div class='left'>
                         <img src='assets/img/author-img.png' alt=''>
                     </div>
                 </div>
-                <div class='col-7'>
+                <div class='col-md-7'>
                     <div class='right'>
                         <h1>Meet the Author.</h1>
                         <p>Dorothy Elizabeth Love is the author of several novels. She is a motivational speaker who facilitates workshops on developing and improving the art of writing.</p>
@@ -84,14 +89,14 @@
     <section id="fiction">
         <div class='container'>
             <div class='row'>
-                <div class='col-12'>
+                <div class='col-md-12'>
                     <div class='common_heading'>
                         <h1>Contemporary Fiction</h1>
                     </div>
                 </div>
             </div>
             <div class='row gallery'>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/andthancome.png' alt=''>
                         <ul>
@@ -100,7 +105,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/crossing-paths.png' alt=''>
                         <ul>
@@ -109,7 +114,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/dreams.png' alt=''>
                         <ul>
@@ -118,7 +123,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/memories.png' alt=''>
                         <ul>
@@ -127,7 +132,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/moments.png' alt=''>
                         <ul>
@@ -136,7 +141,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/nights.png' alt=''>
                         <ul>
@@ -145,7 +150,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/nights2.png' alt=''>
                         <ul>
@@ -154,7 +159,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class='col-3'>
+                <div class='col-sm-6 col-md-4 col-lg-3'>
                     <div class='fiction_card'>
                         <img src='assets/img/taken.png' alt=''>
                         <ul>
@@ -181,21 +186,21 @@
     <section id="others_say">
         <div class='container'>
             <div class='row'>
-                <div class='col-12'>
+                <div class='col-md-12'>
                     <div class='common_heading'>
                         <h1>What Others Say</h1>
                     </div>
                 </div>
             </div>
-            <div class='row justify-content-between align-items-center'>
-                <div class='col-4 pe-4 ps-0'>
+            <div class='row justify-content-between align-items-center justify_content_center'>
+                <div class='col-md-6 col-lg-4  px-sm-4 px-md-4  pe-lg-4 pe-xl-4 ps-lg-0 ps-xl-0 '>
                     <div class='card_left'>
                         <h1>“</h1>
                         <p>The title of this book, "And Then Came You" is very suiting to the overall story. This is one of those hard-to-put-down books until you finish it in one sitting. Thanks Ms. Love for giving us Parker Ryan's story and once again you illustrated the unconditional love of family that Parker receives in this book.</p>
                         <h3>~ HALL OF FAMEVINE VOICE</h3>
                     </div>
                 </div>
-                <div class='col-4 px-4'>
+                <div class='col-md-6 col-lg-4  px-sm-4 px-md-4   '>
                     <div class='card_middle'>
                         <h1>“</h1>
                         <p>Dorothy Elizabeth Love has written one of the sexiest, exciting, and laugh- 
@@ -203,7 +208,7 @@
                         <h3>~ APOOO Book Club</h3>
                     </div>
                 </div>
-                <div class='col-4 ps-4 pe-0'>
+                <div class='col-md-6 col-lg-4  px-sm-4 px-md-4   ps-lg-4 ps-xl-4 pe-lg-0 pe-xl-0'>
                     <div class='card_right'>
                         <h1>“</h1>
                         <p>WHEN DREAMS FLOAT is the second novel in Dorothy Love's Travel and Love Collection and it is indeed an exotic, erotic, and entertaining read. This story takes place in Tahiti and as usual Love's descriptive use of language allows readers to float away to a tropical paradise and watch a steamy love story unfold.</p>
@@ -215,15 +220,15 @@
     </section>
     <footer>
         <section id="footer">
-            <div class='row'>
-                <div class='col-12 '>
+            <div class='row container-fluid'>
+                <div class='col-md-12 px-0'>
                     <ul class="social">
                         <li><i class="fa-brands fa-facebook-f"></i></li>
                         <li><i class="fa-brands fa-twitter"></i></li>
                         <li><i class="fa-brands fa-linkedin-in"></i></li>
                     </ul>
                 </div>
-                <div class='col-12'>
+                <div class='col-md-12 px-0'>
                     <ul class="section">
                         <li>home</li>
                         <li><img src='assets/img/leaf.png' alt=''></li>
@@ -236,7 +241,7 @@
                         <li>What Others Say</li>
                     </ul>
                 </div>
-                <div class='col-12'>
+                <div class='col-md-12 px-0'>
                     <p class="copy">© copyrights 2019 Dorothy Elizabeth Love. All rights reserved</p>
                 </div>
             </div>   
